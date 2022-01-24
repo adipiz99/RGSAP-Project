@@ -1,0 +1,79 @@
+Completed evaluation for model 2
+Completed evaluation for model 3
+Completed evaluation for model 4
+Completed evaluation for model 5
+Completed evaluation for model 6
+Completed evaluation for model 7
+Completed evaluation for model 8
+Completed evaluation for model 9
+Completed evaluation for model 10
+Completed evaluation for model 11
+Completed evaluation for model 12
+Completed evaluation for model 13
+Completed evaluation for model 14
+Completed evaluation for model 15
+Completed evaluation for model 16
+Completed evaluation for model 17
+Completed evaluation for model 18
+Completed evaluation for model 19
+Completed evaluation for model 20
+Completed evaluation for model 21
+Completed evaluation for model 22
+Completed evaluation for model 23
+Completed evaluation for model 24
+Completed evaluation for model 25
+Completed evaluation for model 26
+Completed evaluation for model 27
+Completed evaluation for model 28
+Completed evaluation for model 29
+Completed evaluation for model 30
+Completed evaluation for model 31
+Completed evaluation for model 32
+Completed evaluation for model 33
+Completed evaluation for model 34
+Completed evaluation for model 35
+Completed evaluation for model 36
+Completed evaluation for model 37
+Completed evaluation for model 38
+Completed evaluation for model 39
+Completed evaluation for model 40
+Computed ARI for KMeans model n.2 with value: 0.3894007781513223
+Computed ARI for KMeans model n.3 with value: 0.39539789503715267
+Computed ARI for KMeans model n.4 with value: 0.39021139796779397
+Computed ARI for KMeans model n.5 with value: 0.3905412289925202
+Computed ARI for KMeans model n.6 with value: 0.39037502930962537
+Computed ARI for KMeans model n.7 with value: 0.39122465759303326
+Computed ARI for KMeans model n.8 with value: 0.3929256358662682
+Computed ARI for KMeans model n.9 with value: 0.39716950958130787
+Computed ARI for KMeans model n.10 with value: 0.3910283196584649
+Computed ARI for KMeans model n.11 with value: 0.3968649582168516
+Computed ARI for KMeans model n.12 with value: 0.3912729144472968
+Computed ARI for KMeans model n.13 with value: 0.39139417728827564
+Computed ARI for KMeans model n.14 with value: 0.3913228771808793
+Computed ARI for KMeans model n.15 with value: 0.394815918003748
+Computed ARI for KMeans model n.16 with value: 0.39649498616172413
+Computed ARI for KMeans model n.17 with value: 0.39396240790377474
+Computed ARI for KMeans model n.18 with value: 0.3956851085859726
+Computed ARI for KMeans model n.19 with value: 0.39177084958464997
+Computed ARI for KMeans model n.20 with value: 0.3932882684346181
+Computed ARI for KMeans model n.21 with value: 0.39183071068202185
+Computed ARI for KMeans model n.22 with value: 0.39498499288175243
+Computed ARI for KMeans model n.23 with value: 0.3930520252578827
+Computed ARI for KMeans model n.24 with value: 0.39612124568942914
+Computed ARI for KMeans model n.25 with value: 0.3960926695980502
+Computed ARI for KMeans model n.26 with value: 0.39202657611626707
+Computed ARI for KMeans model n.27 with value: 0.3930316964218924
+Computed ARI for KMeans model n.28 with value: 0.39206365898296824
+Computed ARI for KMeans model n.29 with value: 0.39210228765389604
+Computed ARI for KMeans model n.30 with value: 0.3959927071323936
+Computed ARI for KMeans model n.31 with value: 0.39278875384351
+Computed ARI for KMeans model n.32 with value: 0.39581792220660267
+Computed ARI for KMeans model n.33 with value: 0.39582595057727543
+Computed ARI for KMeans model n.34 with value: 0.39577742452165426
+Computed ARI for KMeans model n.35 with value: 0.3958154917870952
+Computed ARI for KMeans model n.36 with value: 0.39226375997141905
+Computed ARI for KMeans model n.37 with value: 0.3922354700072373
+Computed ARI for KMeans model n.38 with value: 0.39570214436094453
+Computed ARI for KMeans model n.39 with value: 0.39567609911602775
+Computed ARI for KMeans model n.40 with value: 0.3956537700900855
+Done!
