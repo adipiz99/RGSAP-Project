@@ -1,4 +1,4 @@
-from df_reducer import minimize_by_feature_importance
+from generics_labelling.df_reducer import minimize_by_feature_importance
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
