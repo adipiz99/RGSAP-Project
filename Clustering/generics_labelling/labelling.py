@@ -10,6 +10,12 @@ import numpy as np
 import csv
 import os
 
+# DESCRIPTION: This scripts creates two datasets for both Generics and Not Generics attacks.
+#              This means that Normal traffic is not used. Then, the script creates a KMeans model
+#              with a number of clusters equal to the Not Generics attacks (8) and evaluates each
+#              Generic element to assign it a label.
+
+
 # Reading csv file
 dataFrame = pd.read_csv(
     os.getcwd() + '\\dataset\\UNSW_NB15_testing-set.csv',
@@ -47,9 +53,10 @@ generics.to_csv(os.getcwd() +
 generics = minimize_by_feature_importance(clf, FEATURES,
                                                 os.getcwd() + '\\dataset\\UNSW_NB15_testing-set_GENERICS.csv', .9)
 
-# Deleting generics from dataframe
+# Deleting generics and normal from dataframe
 dataFrame = dataFrame.set_index("attack_cat")
 dataFrame = dataFrame.drop("Generic", axis = 0)
+dataFrame = dataFrame.drop("Normal", axis = 0)
 dataFrame.to_csv(os.getcwd() + 
     '\\dataset\\UNSW_NB15_testing-set_NOT_GENERICS.csv', index=False)
 
@@ -58,7 +65,7 @@ dataFrame = minimize_by_feature_importance(clf, FEATURES,
                                                 os.getcwd() + '\\dataset\\UNSW_NB15_testing-set_NOT_GENERICS.csv', .9)
 
 #Training a KMeans model
-kmeans_model = KMeans(n_clusters = 9)
+kmeans_model = KMeans(n_clusters = 8)
 kmeans_model = kmeans_model.fit(dataFrame)
 
 #Prediction on both GENERICS and NOT_GENERICS dataframes
